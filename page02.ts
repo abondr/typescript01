@@ -8,4 +8,4 @@ function countDown(initial,final=0,interval=1){
 	}
 }
 
-countDown(20);
+countDown(30);
