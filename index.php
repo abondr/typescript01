@@ -41,6 +41,14 @@
             <th scope="row">4</th>
             <td><a href="page04.php">Page04</a></td>
         </tr>
+        <tr>
+            <th scope="row">5</th>
+            <td><a href="page05.php">Page05</a></td>
+        </tr>
+        <tr>
+            <th scope="row">6</th>
+            <td><a href="page06.php">Page06</a></td>
+        </tr>
         </tbody>
     </table>
 
