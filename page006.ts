@@ -35,5 +35,5 @@ class Employee extends Person {
 }
 
 let emp1:Employee = new Employee("Abon","Duttaroy",new Date(1984,8,14),"IT",33500);
-alert(emp1.selfIntrodution());
+console.log(emp1.selfIntrodution());
 

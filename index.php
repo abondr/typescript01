@@ -25,30 +25,15 @@
         </tr>
         </thead>
         <tbody>
-        <tr>
-            <th scope="row">1</th>
-            <td><a href="page01.php">Page01</a></td>
-        </tr>
-        <tr>
-            <th scope="row">2</th>
-            <td><a href="page02.php">Page02</a></td>
-        </tr>
-        <tr>
-            <th scope="row">3</th>
-            <td><a href="page03.php">Page03</a></td>
-        </tr>
-        <tr>
-            <th scope="row">4</th>
-            <td><a href="page04.php">Page04</a></td>
-        </tr>
-        <tr>
-            <th scope="row">5</th>
-            <td><a href="page05.php">Page05</a></td>
-        </tr>
-        <tr>
-            <th scope="row">6</th>
-            <td><a href="page06.php">Page06</a></td>
-        </tr>
+        <?php 
+            for($i=0;$i<7;$i++){
+                $strNum = str_pad($i+1,3,'0',STR_PAD_LEFT);
+                echo "<tr>
+                <th scope=\"row\">{$i}</th>
+                <td><a href=\"page".$strNum.".php\">Page".$strNum."</a></td>
+            </tr>";
+            }
+        ?>    
         </tbody>
     </table>
 

@@ -1,12 +1,12 @@
 <html>
 <head>
     <title>
-        page 04
+        page 06
     </title>
 </head>
 <body>
 <div id='container'></div>
-<script type="text/javascript" src="page04.js"></script>
+<script type="text/javascript" src="page006.js?id=2"></script>
 <div><a href="index.php">Back</a></div>
 </body>
 </html>

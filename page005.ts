@@ -19,8 +19,8 @@ var spark = new Character("Jacob","Keyes");
 
 var msg = spark.greet();
 
-alert(msg); // "Hi! my name is Jacob Keyes"
+console.log(msg); // "Hi! my name is Jacob Keyes"
 
 var msg1 = spark.greet("Dr. Halsey");
 
-alert(msg1); // "Hi! Dr. Halsey! my name is Jacob Keyes"
+console.log(msg1); // "Hi! Dr. Halsey! my name is Jacob Keyes"

@@ -5,9 +5,7 @@ class Logger implements LoggerInterface{
     log(arg){
         if(typeof console.log === "function"){
             console.log(arg);
-        }
-        else
-        {
+        }else{
             alert(arg);
         }
     }
