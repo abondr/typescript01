@@ -26,10 +26,10 @@
         </thead>
         <tbody>
         <?php 
-            for($i=0;$i<7;$i++){
+            for($i=0;$i<8;$i++){
                 $strNum = str_pad($i+1,3,'0',STR_PAD_LEFT);
                 echo "<tr>
-                <th scope=\"row\">{$i}</th>
+                <th scope=\"row\">".($i+1)."</th>
                 <td><a href=\"page".$strNum.".php\">Page".$strNum."</a></td>
             </tr>";
             }

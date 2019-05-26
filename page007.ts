@@ -3,3 +3,18 @@ let firstNum = input[0];
 let secondNum = input[1];
 console.log(firstNum);
 console.log(secondNum);
+let [num1,num2] = input;
+console.log(num1);
+console.log(num2);
+let [n1,...n2] = [1,2,3,4,5,6];
+console.log(n1);
+console.log(n2);
+
+let [,n3,,n4] = [1,2,3,4,5,6];
+console.log(n3);
+console.log(n4);
+let [totalDate,year,month,day] = /^(\d{4})-(\d\d)-(\d\d)$/.exec("2019-05-26");
+console.log(totalDate);
+console.log(year);
+console.log(month);
+console.log(day);
